@@ -84,20 +84,6 @@ elif menu_selection=="2":
         print("Not in stock")
     
 elif menu_selection == "3":
-    # list_item_category=[]
-    # for item in stock:
-    #     list_item_category.append(item["category"])
-    # dict_item_category={i:list_item_category.count(i) for i in list_item_category}
-    # for id,(key,value) in enumerate(dict_item_category.items()):
-    #     print(f"{id+1} {key} ({value})") 
-    # select_category=input("Type the number of the category to browse:")
-    # print(dict_item_category.keys())
-    # for id,key in enumerate(dict_item_category.keys()):
-    #     if id==int(select_category):
-    #         for item in stock:
-    #             if key==item["category"]:
-    #                 print(f"{item['state']} {item['category']}, Warehouse {item['warehouse']}")
-    
     list_item_category=[]
     for item in stock:
         list_item_category.append(item["category"])
